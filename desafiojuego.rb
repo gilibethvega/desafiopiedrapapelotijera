@@ -18,13 +18,13 @@ end
 
 puts "Hola Jugador 1 escoge el número de la opción que deseas jugar"
 opcion_jugador1 = 'cualquier valor'
-while opcion_jugador1 != 'salir' && opcion_jugador1 != 'Salir'  && opcion_jugador1 != '1'  && opcion_jugador1 != '2'  && opcion_jugador1 != '3'
+while opcion_jugador1 != 'salir' && opcion_jugador1 != 'Salir'  && opcion_jugador1 != '1'  && opcion_jugador1 != '2'  && opcion_jugador1 != '3'  && opcion_jugador1 != '4'
   imprimir_menu
   opcion_jugador1 = gets.chomp.to_s
   if opcion_jugador1 == "1"
     puts "Hola Jugador 2 escoge el número de la opción que deseas jugar"
     opcion_jugador2 = "cualquier valor"
-    while opcion_jugador2 != 'salir' && opcion_jugador2 != 'Salir'  && opcion_jugador2 != '1'  && opcion_jugador2 != '2'  && opcion_jugador2 != '3'
+    while opcion_jugador2 != 'salir' && opcion_jugador2 != 'Salir'  && opcion_jugador2 != '1'  && opcion_jugador2 != '2'  && opcion_jugador2 != '3'  && opcion_jugador2 != '4'
       imprimir_menu
       opcion_jugador2 = gets.chomp.to_s
       if opcion_jugador2 == "Salir" || opcion_jugador2 == "salir" || opcion_jugador2 == "4"
@@ -38,7 +38,7 @@ while opcion_jugador1 != 'salir' && opcion_jugador1 != 'Salir'  && opcion_jugado
   elsif opcion_jugador1 == "2"
     puts "Hola Jugador 2 escoge el número de la opción que deseas jugar"
     opcion_jugador2 = "cualquier valor"
-    while opcion_jugador2 != 'salir' && opcion_jugador2 != 'Salir'  && opcion_jugador2 != '1'  && opcion_jugador2 != '2'  && opcion_jugador2 != '3'
+    while opcion_jugador2 != 'salir' && opcion_jugador2 != 'Salir'  && opcion_jugador2 != '1'  && opcion_jugador2 != '2'  && opcion_jugador2 != '3' && opcion_jugador2 != '4'
       imprimir_menu
       opcion_jugador2 = gets.chomp.to_s
       if opcion_jugador2 == "Salir" || opcion_jugador2 == "salir" || opcion_jugador2 == "4"
@@ -52,7 +52,7 @@ while opcion_jugador1 != 'salir' && opcion_jugador1 != 'Salir'  && opcion_jugado
   elsif opcion_jugador1 == "3"
     puts "Hola Jugador 2 escoge el número de la opción que deseas jugar"
     opcion_jugador2 = "cualquier valor"
-    while opcion_jugador2 != 'salir' && opcion_jugador2 != 'Salir'  && opcion_jugador2 != '1'  && opcion_jugador2 != '2'  && opcion_jugador2 != '3'
+    while opcion_jugador2 != 'salir' && opcion_jugador2 != 'Salir'  && opcion_jugador2 != '1'  && opcion_jugador2 != '2'  && opcion_jugador2 != '3' && opcion_jugador2 != '4'
       imprimir_menu
       opcion_jugador2 = gets.chomp.to_s
       if opcion_jugador2 == "Salir" || opcion_jugador2 == "salir" || opcion_jugador2 == "4"
